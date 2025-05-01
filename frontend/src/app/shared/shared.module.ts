@@ -5,13 +5,13 @@ import {ProductCardComponent} from './components/product-card/product-card.compo
 import {RouterModule} from "@angular/router";
 import {FormsModule} from "@angular/forms";
 import {CategoryFilterComponent} from './components/category-filter/category-filter.component';
-import { ProductsCarouselComponent } from './components/products-carousel/products-carousel.component';
+import {ProductsCarouselComponent} from './components/products-carousel/products-carousel.component';
 import {CarouselModule} from "ngx-owl-carousel-o";
-import { NotFoundComponent } from './components/not-found/not-found.component';
-import { CountSelectorComponent } from './components/count-selector/count-selector.component';
-import { LoaderComponent } from './components/loader/loader.component';
+import {NotFoundComponent} from './components/not-found/not-found.component';
+import {CountSelectorComponent} from './components/count-selector/count-selector.component';
+import {LoaderComponent} from './components/loader/loader.component';
 import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
-import { FavouriteProductComponent } from './components/favourite-product/favourite-product.component';
+import {FavouriteProductComponent} from './components/favourite-product/favourite-product.component';
 
 
 @NgModule({
@@ -25,13 +25,13 @@ import { FavouriteProductComponent } from './components/favourite-product/favour
     LoaderComponent,
     FavouriteProductComponent
   ],
-    imports: [
-        CommonModule,
-        RouterModule,
-        FormsModule,
-        CarouselModule,
-        MatProgressSpinnerModule
-    ],
+  imports: [
+    CommonModule,
+    RouterModule,
+    FormsModule,
+    CarouselModule,
+    MatProgressSpinnerModule
+  ],
   exports: [
     PasswordRepeatDirective,
     ProductCardComponent,

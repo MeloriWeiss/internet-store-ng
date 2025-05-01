@@ -22,8 +22,6 @@ export class CartComponent implements OnInit {
   constructor(private productService: ProductService,
               private cartService: CartService) { }
 
-
-
   ngOnInit(): void {
     this.productService.getBestProducts()
       .subscribe((data: ProductType[]) => {
